@@ -1,5 +1,13 @@
 # Algorithm for measuring fluorescence intensity on GUVs
 Accepts _.lif_ files (obtained from Leica microscopes)
+Packages to install:
+
+Open CV:
+pip install opencv-python
+
+readlif:
+pip install readlif
+
 
 In the first cell, start by changing the variable that points to the address where the GUV file is located in your computer:
 > fpath = 'your path'
